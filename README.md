@@ -10,6 +10,7 @@ Using Ant Colony Intelligent Optimization Algorithm to Solve TSP Problem：
     Shortest distance and optimal path output in the terminal.
 
 Test sample:
+
     STEP 1: cd test
 
     STEP 2: gcc ../yqTSP.c -lm -o yqTSP
