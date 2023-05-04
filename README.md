@@ -8,6 +8,13 @@ Using Ant Colony Intelligent Optimization Algorithm to Solve TSP Problem：
     the second and third colum is X and Y coordinate respectively.
     Shortest distance and optimal path output in the terminal.
 
+Test sample:
+    STEP 1: cd test
+
+    STEP 2: gcc ../yqTSP.c -lm -o yqTSP
+
+    STEP 3: ./yqTSP sample.txt
+
 In order to avoid the ant colony algorithm falling into the local optimal solution, this paper improves the pheromone update mode. Pheromone local dynamic update and global update are combined. Update the pheromone on the path after each ant action:
                             τ_ij(t) = (1-ρ)*τ_ij(t) + ρ*∆*τ_ij (t)
 where ∆τ_ij(t) = ρ*Q/antdistance, antdistance is the path length of this ant.

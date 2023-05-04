@@ -73,7 +73,7 @@ int main(int argc , char* argv[])
         
        
     }
-    printf("\nbest distance:%f",Sbest);
+    printf("\nbest distance:%f\n",Sbest);
     OutputToFile();
 
     return 0;
